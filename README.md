@@ -27,22 +27,15 @@ This program reads a CSV file containing student grades, calculates the average 
 
 ### Usage
 
-To use this program, simply run the read_grades_file() function in file "Writing Exceptions" with the filename of the CSV file containing the student grades.
-
-The program will print the name of each student, their average grade, and whether they passed or failed.
+To use this program, simply run the read_grades_file() function in file "Writing Exceptions" with the filename of the CSV file containing the student grades. The program will print the name of each student, their average grade, and whether they passed or failed.
 
 ### Exceptions
 
-This program defines a custom StudentFailException exception which is raised if a student fails. If this exception is raised, the student's pass/fail status will be set to "Fail".
-
-If the CSV file specified in the function call is not found, a FileNotFoundError will be raised and an error message will be printed.
+This program defines a custom StudentFailException exception which is raised if a student fails. If this exception is raised, the student's pass/fail status will be set to "Fail". If the CSV file specified in the function call is not found, a FileNotFoundError will be raised and an error message will be printed.
 
 ## Addition Function Unit Test 
-
-This code contains a simple addition function to calculate the sum of two given integers, and a set of unit tests written using the unittest module to ensure that the function is working correctly.
-
 ### Function description
-The addition function takes in two integers as input and returns their sum.
+The addition function takes in two integers as input and returns their sum. This code contains a simple addition function to calculate the sum of two given integers, and a set of unit tests written using the unittest module to ensure that the function is working correctly.
 
 ### Unit tests
 The TestAddition class contains three test cases to verify the addition function:
@@ -52,3 +45,18 @@ The TestAddition class contains three test cases to verify the addition function
 - test_zero: tests whether the function returns the correct sum for two zeros.
 
 All tests use the assertEqual method to compare the expected output with the actual output of the addition function.
+
+## Factorial Function Unit Test 
+### Function description
+This code contains a function factorial() that calculates the factorial of a given integer. The factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n. For example, the factorial of 5 is 5 x 4 x 3 x 2 x 1 = 120.
+
+The factorial() function raises a ValueError if a negative integer is provided as input. The function returns 1 if the input integer is 0.
+
+### Unit tests
+The TestFactorial class tests the factorial() function with various inputs. The test suite has three test cases:
+
+- test_factorial_of_zero tests if the function returns 1 when input is 0.
+- test_factorial_of_positive_integer tests if the function returns the correct value for a positive integer input.
+- test_factorial_of_negative_integer tests if the function raises a ValueError when a negative integer input is provided.
+
+To run the test cases, execute the file. The test results will be displayed in the console.
