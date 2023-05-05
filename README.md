@@ -13,9 +13,9 @@ Note: If the program fails to retrieve the weather data, an error message will b
 
 ## Regular Expression Pattern Matcher
 
-This code uses the Python regular expressions module re to match patterns in text strings.
+'This code uses the Python regular expressions module re to match patterns in text strings.
 It includes eight different patterns, each with an example string to be matched.
-The patterns include matching dates, email addresses, URLs, phone numbers, passwords, and credit card numbers.
+The patterns include matching dates, email addresses, URLs, phone numbers, passwords, and credit card numbers.'
 
 To use the code, simply run the "Regular_expressions" file and observe the output.
 If a match is found for a given pattern and text string, the matched portion of the string will be printed.
